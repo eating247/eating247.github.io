@@ -4,4 +4,4 @@ Source code for my website.
 
 [View here]
 
-[View here](tt-wang.me)
+[View here]: tt-wang.me
