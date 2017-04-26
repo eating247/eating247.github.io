@@ -37,13 +37,13 @@
   bottom: 0;
 }
 
+/* layout */
+
 body {
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   padding: 0;
 }
 
-
-/* layout */
 .container,
 footer {
   margin-left: auto;
