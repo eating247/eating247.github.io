@@ -42,6 +42,7 @@
 body {
   font-family: 'Futura', 'Helvetica', sans-serif;
   padding: 0;
+  color: #3E4E50;
 }
 
 .container,
@@ -65,23 +66,20 @@ footer ul li {
 }
 
 a {
-  color: #777;
+  color: #3E4E50;
   text-decoration: underline;
 }
 
 a:hover {
-    color:blue;
+    color: #ccc;
 }
 
 p {
-  color: #333;
-  font-size: 1.25em;
-  line-height: 1.15em;
+  font-size: 1.5em;
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: .8em;
 }
 
 @-ms-viewport {
