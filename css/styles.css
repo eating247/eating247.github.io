@@ -1,49 +1,10 @@
-/* borders */
-.top,
-.bottom,
-.left,
-.right {
-  background: #D97B67;
-  position: fixed;
-}
-
-.left,
-.right {
-  bottom: 0;
-  top: 0;
-  width: 5px;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
-  right: 0;
-}
-
-.top,
-.bottom {
-  height: 5px;
-  left: 0;
-  right: 0;
-}
-
-.top {
-  top: 0;
-}
-
-.bottom {
-  bottom: 0;
-}
-
 /* layout */
 
 body {
   font-family: 'Futura', 'Helvetica', sans-serif;
   padding: 0;
   color: #3E4E50;
-  background-color: #f8e8e5
+  /*background-color: #f8e8e5*/
 }
 
 .container,

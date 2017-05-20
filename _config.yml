@@ -1,0 +1,4 @@
+name: tingting
+markdown: kramdown
+gems:
+  - jekyll-sitemap
