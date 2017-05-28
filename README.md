@@ -1,7 +1,5 @@
 # tt-wang.me
 
-Source code for my website.
+Source code for [my website][website].
 
-[View here]
-
-[View here]: http://tt-wang.me
+[website]: http://tt-wang.me
