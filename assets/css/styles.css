@@ -3,8 +3,13 @@
 body {
   font-family: 'Futura', 'Helvetica', sans-serif;
   padding: 0;
-  color: #3E4E50;
-  /*background-color: #f8e8e5*/
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container,
@@ -32,12 +37,12 @@ footer ul li {
 }
 
 a {
-  color: #3E4E50;
+  color: #a79ea6;
   text-decoration: underline;
 }
 
 a:hover {
-    color: #ccc;
+  color: #ccc;
 }
 
 p {
