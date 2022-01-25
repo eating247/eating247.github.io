@@ -1,3 +1,5 @@
+an outlet for me to discuss things i read
+
 reading list
 - circe + the song of achilles (madeline miller)
 - the order of time
