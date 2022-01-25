@@ -1,4 +1,4 @@
-book list
+reading list
 - circe + the song of achilles (madeline miller)
 - the order of time
 - sourdough
@@ -6,3 +6,5 @@ book list
 - tomorrow sex will be good again - katherine angel
 - lauren oyler on roxane gay + jia  tolentino
 - wild seed - octavia butler
+- the museum of modern love
+- baldwin's essay on his father's death
