@@ -1,7 +1,9 @@
 things i've enjoyed reading during the pandemic (ongoing)
+
 - circe + the song of achilles (madeline miller)
 - breasts + eggs, mieko kawakami
 - earthlings, sayaka murata
+- luster, raven leilani
 - the order of time, carlo rovelli
 - sourdough, robin sloan
 - our country house + lake success, shteyngart
