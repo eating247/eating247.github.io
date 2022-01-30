@@ -12,3 +12,4 @@ things i've enjoyed reading during the pandemic (ongoing)
 - wild seed - octavia butler
 - the museum of modern love
 - baldwin's essay on his father's death
+- three women of chuck's donuts, anthony veasna so
