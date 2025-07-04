@@ -1,1 +1,0 @@
-[pandemic reading](/pandemic_reading.html)
