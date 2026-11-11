@@ -1,0 +1,12 @@
+- title: home
+  url: /
+- title: read
+  url: /read/
+- title: code
+  url: /code/
+- title: eat
+  url: /eat/
+- title: bike
+  url: /bike/
+- title: other
+  url: /other/

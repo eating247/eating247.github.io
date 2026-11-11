@@ -1,0 +1,8 @@
+title: tingting
+description: hi, i'm tingting
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

@@ -1,0 +1,41 @@
+{%- assign items = page.items | default: empty -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F5F9FC">
+  <link rel="icon" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cdefs%3e%3cradialGradient id='g' cx='.35' cy='.3' r='.8'%3e%3cstop offset='0' stop-color='%23e6fbff'/%3e%3cstop offset='.5' stop-color='%2363c3e6'/%3e%3cstop offset='1' stop-color='%232a7fb8'/%3e%3c/radialGradient%3e%3c/defs%3e%3ccircle cx='8' cy='8' r='7' fill='url(%23g)'/%3e%3c/svg%3e">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <div class="page">
+    <nav class="sidebar" aria-label="site">
+      <a class="name" href="{{ '/' | relative_url }}">tingting</a>
+      <ul>
+        {%- for item in site.data.nav %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <main class="content">
+      {{ content }}
+
+      {%- if page.folder %}
+      {%- if items.size > 0 %}
+      <div class="items">
+        {%- for it in items %}
+        <div class="item-name">{% if it.url %}<a href="{{ it.url }}">{{ it.name }}</a>{% else %}{{ it.name }}{% endif %}{% if it.note %} <span class="note">{{ it.note }}</span>{% endif %}</div>
+        <time>{{ it.date }}</time>
+        {%- endfor %}
+      </div>
+      {%- else %}
+      <p class="note">this folder is empty.</p>
+      {%- endif %}
+      {%- endif %}
+    </main>
+  </div>
+</body>
+</html>
