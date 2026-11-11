@@ -1,2 +1,1 @@
-[pandemic reading](/pandemic_reading.html)
-[pandemic thinking](/pandemic_thinking.html)
+hi, i'm tingting and i like to read, code, eat, bike, and do many other things
